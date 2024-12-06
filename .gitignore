@@ -1,0 +1,48 @@
+# Node modules
+/node_modules/
+
+# Arquivos de log
+*.log
+
+# Build outputs
+/dist/
+/build/
+
+# Diretórios e arquivos gerados pelo Electron
+/.electron/
+*.dmg
+*.app
+*.exe
+*.zip
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração do editor de código
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Arquivos de cache
+.cache/
+*.tgz
+
+# Arquivos gerados por testes
+/coverage/
+/test-results/
+*.lcov
+
+# Arquivos do sistema de pacotes
+package-lock.json
+yarn.lock
+
+# Diretórios de cache do Electron
+/.electron-builder/
+
